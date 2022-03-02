@@ -1,0 +1,22 @@
+<meta charset="UFT-08">
+<input/>
+<button>Acessar</button>
+
+<script>
+
+    var segredo = 5;
+
+var input = document.querySelector("input");
+
+function verifica (){
+        if (input.value == segredo) {
+        alert("Voce Arcetou!");
+    } else {
+        alert("Você ERROU !!!!!!!");
+    }
+}
+var button = document.querySelector("button");
+
+button.onclick = verifica;
+
+</script>
